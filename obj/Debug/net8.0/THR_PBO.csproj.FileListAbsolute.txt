@@ -1,0 +1,14 @@
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\bin\Debug\net8.0\THR_PBO.exe
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\bin\Debug\net8.0\THR_PBO.deps.json
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\bin\Debug\net8.0\THR_PBO.runtimeconfig.json
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\bin\Debug\net8.0\THR_PBO.dll
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\bin\Debug\net8.0\THR_PBO.pdb
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\THR_PBO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\THR_PBO.AssemblyInfoInputs.cache
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\THR_PBO.AssemblyInfo.cs
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\THR_PBO.csproj.CoreCompileInputs.cache
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\THR_PBO.dll
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\refint\THR_PBO.dll
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\THR_PBO.pdb
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\THR_PBO.genruntimeconfig.cache
+C:\Users\Syadidch\Desktop\Semester 2\PBO\THR_PBO\obj\Debug\net8.0\ref\THR_PBO.dll
