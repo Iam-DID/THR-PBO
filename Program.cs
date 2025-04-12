@@ -2,13 +2,48 @@
 {
     public static void Main()
     {
+        Console.WriteLine("Masukkan jenis karyawan (Tetap/Kontrak/Magang):");
+        string jenis = Console.ReadLine();
 
-        Karyawan_Tetap karyawan1 = new Karyawan_Tetap("Syadid","1",500000);
-        Console.WriteLine(karyawan1.Hitung_Gaji());
-        Karyawan_Kontrak karyawan2 = new Karyawan_Kontrak("Budiono", "2", 500000);
-        Console.WriteLine(karyawan2.Hitung_Gaji());
-        Karyawan_Magang karyawan3 = new Karyawan_Magang("Siregar", "3", 500000);
-        Console.WriteLine(karyawan3.Hitung_Gaji());
+        Console.WriteLine("Masukkan nama karyawan:");
+        string nama = Console.ReadLine();
+
+        Console.WriteLine("Masukkan ID karyawan:");
+        string id = Console.ReadLine();
+
+        Console.WriteLine("Masukkan gaji pokok:");
+        double gajiPokok = Convert.ToDouble(Console.ReadLine());
+
+        Karyawan karyawan;
+
+        if (jenis.ToLower() == "tetap")
+        {
+            karyawan = new Karyawan_Tetap(nama, id, gajiPokok);
+            Console.WriteLine($"Nama : {karyawan.Nama}");
+            Console.WriteLine($"ID Karyawan : {karyawan.ID}");
+            Console.WriteLine($"Jenis Karyawan : Karyawan Tetap");
+            Console.WriteLine($"Gaji : {karyawan.Hitung_Gaji()}");
+        }
+        else if (jenis.ToLower() == "kontrak")
+        {
+            karyawan = new Karyawan_Kontrak(nama, id, gajiPokok);
+            Console.WriteLine($"Nama : {karyawan.Nama}");
+            Console.WriteLine($"ID Karyawan : {karyawan.ID}");
+            Console.WriteLine($"Jenis Karyawan : Karyawan Kontrak");
+            Console.WriteLine($"Gaji : {karyawan.Hitung_Gaji()}");
+        }
+        else if (jenis.ToLower() == "magang")
+        {
+            karyawan = new Karyawan_Magang(nama, id, gajiPokok);
+            Console.WriteLine($"Nama : {karyawan.Nama}");
+            Console.WriteLine($"ID Karyawan : {karyawan.ID}");
+            Console.WriteLine($"Jenis Karyawan : Karyawan Magang");
+            Console.WriteLine($"Gaji : {karyawan.Hitung_Gaji()}");
+        }
+        else
+        {
+            Console.WriteLine("Jenis karyawan tidak dikenali.");
+        }
     }
 }
 
